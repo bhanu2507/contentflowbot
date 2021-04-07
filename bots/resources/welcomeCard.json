@@ -5,7 +5,7 @@
   "body": [
     {
       "type": "Image",
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtB3AwMUeNoq4gUBGe6Ocj8kyh3bXa9ZbV7u1fVKQoyKFHdkqU",
+      "url": "https://image.tmdb.org/t/p/w500/fQTZNBNDEQjOZhsP0SQkrnBa3Io.jpg",
       "size": "stretch"
     },
     {
@@ -13,15 +13,24 @@
       "spacing": "medium",
       "size": "default",
       "weight": "bolder",
-      "text": "Welcome to Bot Framework!",
+      "text": "Order Details",
       "wrap": true,
       "maxLines": 0
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+          {
+              "title": "languages",
+              "value": "lang1, lang2"
+          }
+      ]
     },
     {
       "type": "TextBlock",
       "size": "default",
       "isSubtle": true,
-      "text": "Now that you have successfully run your bot, follow the links in this Adaptive Card to expand your knowledge of Bot Framework.",
+      "text": "Please the buttons below to accept / reject the order",
       "wrap": true,
       "maxLines": 0
     }
@@ -34,13 +43,8 @@
     },
     {
       "type": "Action.OpenUrl",
-      "title": "Ask a question",
+      "title": "Cancel Order",
       "url": "https://stackoverflow.com/questions/tagged/botframework"
-    },
-    {
-      "type": "Action.OpenUrl",
-      "title": "Learn how to deploy",
-      "url": "https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-deploy-azure?view=azure-bot-service-4.0"
     }
   ]
 }
