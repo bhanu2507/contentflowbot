@@ -21,7 +21,11 @@
       "facts": [
           {
               "title": "languages",
-              "value": "lang1, lang2"
+              "value": "Hungarian, Slovak"
+          },
+          {
+              "title": "Territories",
+              "value": "Austria, Egypt"
           }
       ]
     },
