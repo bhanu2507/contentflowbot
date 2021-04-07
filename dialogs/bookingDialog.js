@@ -37,7 +37,7 @@ class BookingDialog extends CancelAndHelpDialog {
         const bookingDetails = stepContext.options;
 
         if (!bookingDetails.destination) {
-            const messageText = 'To what city would you like to travel?';
+            const messageText = 'Any more orders to be approved';
             const msg = MessageFactory.text(messageText, messageText, InputHints.ExpectingInput);
             return await stepContext.prompt(TEXT_PROMPT, { prompt: msg });
         }
