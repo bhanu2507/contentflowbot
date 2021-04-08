@@ -34,7 +34,7 @@
       "type": "TextBlock",
       "size": "default",
       "isSubtle": true,
-      "text": "Please the buttons below to accept / reject the order",
+      "text": "Please use the buttons below to accept / reject the order",
       "wrap": true,
       "maxLines": 0
     }
